@@ -9,3 +9,5 @@ public class HelloWorld
     SimpleDateFormat = formatter = new SimpleDateFormat("EEE, MMM dd, yyyy HH:mm:ss");
     String formattedDate = formatter.format(now);
     System.out.println("formattedDate + "> Hello, " + args[0] + "!");
+  }
+}
